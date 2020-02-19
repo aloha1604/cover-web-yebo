@@ -202,3 +202,42 @@ button {
 	width: 34%;
 }
 /*end feauture list content*/
+.feature-after{
+	position: relative;
+}
+.feature-after:after{
+	content: "/  35 min";
+	display: inline-block;
+	padding-left: 20px;
+    box-sizing: border-box;
+    color: var(--text);
+	font-size: 1.2rem;
+}
+
+.tweet__icon{
+	 font-size: 4rem;
+  color: #00aefd;
+  margin-bottom: 3rem;
+  text-align: center;
+  width: 100%;
+}
+
+.icon__tron{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon__tron__item{
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 5rem;
+  border: 1px solid var(--text);
+  margin-top: 1rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+.is-active{
+	background-color: var(--text);
+ }
